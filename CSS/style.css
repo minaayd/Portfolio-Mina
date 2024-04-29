@@ -2,6 +2,27 @@
     box-sizing: border-box;
 
 }
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  /* ... up to col-s-12 */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  /* ... up to col-12 */
+}
+
 body{
     background-color: #FFDE00;
     box-sizing: border-box;
