@@ -11,11 +11,11 @@ body{
 }
 
 li, a, button{
-	font-size: 17px;
+	font-size: 15px;
 	color: #01319D;
 	text-decoration: none;
   font-family: "Chau Philomene One", sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 2.5px;
 }
 
 #lan li{
