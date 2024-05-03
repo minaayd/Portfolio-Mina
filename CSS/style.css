@@ -108,6 +108,16 @@ nav {
     flex: 1;
     margin:30px 50px auto 50px;
 }   
+.moi{
+  background-color: #01319D;
+  border-radius: 8px;
+  width: 75%;
+  padding: 1rem 2rem;
+  margin-top: 1%;
+  grid-template-columns: 0fr 8fr 0fr;
+  color: #FFDE00;
+}
+
 
 h1{
     color: #01319D;
@@ -218,11 +228,10 @@ h1{
   margin: 110px 50px 0px 0px;
 }
 
-#Exp h3, #Exp li, #Exp h2, #Exp p{
+#Exp h3, #Exp li, #Exp h2, #Exp p, .moi p{
   color: #FFDE00;
   margin-left: 100px;
   font-family: "Times New Roman";
-  margin-bottom: 0%;
 }
 
 #Skills h1{
