@@ -202,7 +202,7 @@ h1{
 
 
 
-#bdd, #web, #dataviz, #ges, #lan{
+#bdd, #web, #dataviz, #ges, #lan, #Exp{
     background-color: #01319D;
     border-radius: 8px;
     width: 75%;
@@ -211,6 +211,18 @@ h1{
     margin-top: 1%;
     display: grid;
     grid-template-columns: 0fr 8fr 0fr;
+}
+#Exp img{
+  height: 15%;
+  width: 300%;
+  margin: 110px 50px 0px 0px;
+}
+
+#Exp h3, #Exp li, #Exp h2, #Exp p{
+  color: #FFDE00;
+  margin-left: 100px;
+  font-family: "Times New Roman";
+  margin-bottom: 0%;
 }
 
 #Skills h1{
