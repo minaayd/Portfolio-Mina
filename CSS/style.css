@@ -528,8 +528,8 @@ form button{
 .container .box-container .box .btn{
   margin-top: 10px;
   display: inline-block;
-  background: blueviolet;
-  color: white;
+  background: #FFDE00;
+  color: black;
   font-size: 17px;
   border-radius: 5px;
   padding: 8px 25px;
