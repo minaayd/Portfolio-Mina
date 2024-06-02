@@ -211,7 +211,7 @@ h1{
 }
 
 h3 li{
-	font-family: initial;
+	font-family: "Arial", sans-serif;
 }
 
 #bdd, #web, #dataviz, #ges, #lan, #Exp{
