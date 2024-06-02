@@ -210,7 +210,9 @@ h1{
     margin: 20px 15px 0px 1px;
 }
 
-
+h3 li{
+	font-family: initial;
+}
 
 #bdd, #web, #dataviz, #ges, #lan, #Exp{
     background-color: #01319D;
