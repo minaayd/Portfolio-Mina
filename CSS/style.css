@@ -10,7 +10,7 @@ body{
 	padding: 0;
 }
 
- a, button{
+.nav__links li, a, button{
 	font-size: 13.3px;
 	color: #01319D;
 	text-decoration: none;
