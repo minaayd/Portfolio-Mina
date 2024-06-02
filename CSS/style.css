@@ -211,7 +211,8 @@ h1{
 }
 
 .modal li{
-	font-family: "Arial", sans-serif;
+	font-family: initial;
+	color: black;
 }
 
 #bdd, #web, #dataviz, #ges, #lan, #Exp{
