@@ -10,7 +10,7 @@ body{
 	padding: 0;
 }
 
-li, a, button{
+ a, button{
 	font-size: 13.3px;
 	color: #01319D;
 	text-decoration: none;
