@@ -596,3 +596,8 @@ form button{
   width: 80%;
   align-items: center;
 }
+
+#sunrise, #count{
+	height: 50%;
+  	width: 30%;
+}
