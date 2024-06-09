@@ -605,4 +605,6 @@ form button{
 #link{
 	height: 10%;
   	width: 10%;
+	display: flex; 
+	justify-content: center;
 }
