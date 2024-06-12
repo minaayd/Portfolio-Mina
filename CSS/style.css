@@ -211,8 +211,12 @@ h1{
 }
 
 .modal li{
-	font-family: initial;
+	font-family: sans-serif;
 	color: black;
+}
+
+.modal-content p{
+	font-size: 20px;
 }
 
 #bdd, #web, #dataviz, #ges, #lan, #Exp{
@@ -572,7 +576,7 @@ form button{
   margin: auto;
   padding: 30px;
   border: 1px solid #888;
-  width: 65%;
+  width: 50%;
 }
 
 /* The Close Button */
