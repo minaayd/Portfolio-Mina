@@ -165,7 +165,7 @@ h1{
     font-family: "Chau Philomene One", sans-serif;
 }
 
-[data-translate="title"] span {
+*[data-translate="title"] span {
     font-size: 1em;
     position: absolute;
     left: 50%;
