@@ -62,7 +62,7 @@
             <p id="name">Mina Aydogmus</p>
           </div>
           <div class="text">
-            <p id="title" data-translate="status">Étudiante en Data Science</p>
+            <p id="title" data-translate="title">Étudiante en Data Science</p>
           </div>
                 </div>
 		    <script>
@@ -72,7 +72,7 @@
                 `<span style="transform:rotate(${-(i-6) * 6}deg)">${char}</span>`
             ).join('');
             
-            const titleText = document.querySelector('#status');
+            const titleText = document.querySelector('#title');
         titleText.innerText = titleText.innerText.charAt(0).toUpperCase() + titleText.innerText.slice(1);
         titleText.innerHTML = titleText.innerText.split('').map(
     (char, i) =>
