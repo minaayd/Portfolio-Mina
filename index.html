@@ -30,7 +30,21 @@
         translator.init("data-translate", language);
         translator.process();
       }
-    </script>        
+    </script>
+	       <script>
+                    const nameText = document.querySelector('#name');
+                    nameText.innerHTML = nameText.innerText.split('').map(
+                (char, i) =>
+                `<span style="transform:rotate(${-(i-6) * 6}deg)">${char}</span>`
+            ).join('');
+            
+            const titleText = document.querySelector('#title');
+        titleText.innerText = titleText.innerText.charAt(0).toUpperCase() + titleText.innerText.slice(1);
+        titleText.innerHTML = titleText.innerText.split('').map(
+    (char, i) =>
+    `<span style="transform:rotate(${-(i-12) * 2.3}deg)">${char}</span>`
+).join('');
+                </script>
 <!-- MENU -->
 
 	<header>
@@ -65,20 +79,6 @@
             <p id="title" data-translate="status">Étudiante en Data Science</p>
                     </div>
                 </div>
-		    <script>
-                    const nameText = document.querySelector('#name');
-                    nameText.innerHTML = nameText.innerText.split('').map(
-                (char, i) =>
-                `<span style="transform:rotate(${-(i-6) * 6}deg)">${char}</span>`
-            ).join('');
-            
-            const titleText = document.querySelector('#title');
-        titleText.innerText = titleText.innerText.charAt(0).toUpperCase() + titleText.innerText.slice(1);
-        titleText.innerHTML = titleText.innerText.split('').map(
-    (char, i) =>
-    `<span style="transform:rotate(${-(i-12) * 2.3}deg)">${char}</span>`
-).join('');
-                </script>
             </div>
             </div>
         </section>
