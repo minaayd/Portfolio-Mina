@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Mina Aydogmus | Data Scientist</title>
+        <title>Mina Aydogmus | Data Scientist </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio de Mina Aydogmus">
@@ -14,7 +14,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
     </head>
     <body>
-        
 <!-- MENU -->
 
 	<header>
@@ -42,14 +41,15 @@
             </div>
             <div class="content">
                 <div class="circle">
-                    <div class="text">
-                        <p id="name">Mina Aydogmus</p>
-                    </div>
-                    <div class="text">
-                        <p id="title">Étudiante en Data Science</p>
-                    </div>
+                   <div class="text">
+            <p id="name">Mina Aydogmus</p>
+          </div>
+          <div class="text">
+            <p id="title">Étudiante en Data Science</p>
+          </div>
                 </div>
-                <script>
+
+	    <script>
                     const nameText = document.querySelector('#name');
                     nameText.innerHTML = nameText.innerText.split('').map(
                 (char, i) =>
@@ -62,15 +62,7 @@
     (char, i) =>
     `<span style="transform:rotate(${-(i-12) * 2.3}deg)">${char}</span>`
 ).join('');
-
-const titleText = document.querySelector('#title');
-        titleText.innerText = titleText.innerText.charAt(0).toUpperCase() + titleText.innerText.slice(1);
-        titleText.innerHTML = titleText.innerText.split('').map(
-    (char, i) =>
-    `<span style="transform:rotate(${-(i-12) * 2.3}deg)">${char}</span>`
-).join('');
                 </script>
             </div>
             </div>
         </section>
-
